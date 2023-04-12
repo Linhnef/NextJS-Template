@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 import Layout from "@/components/layout";
 import "src/styles/globals.css";
-import { GlobalContextProvider } from "@/components/contexts/GlobalContext";
+import { GlobalContextProvider } from "src/contexts/GlobalContext";
 import Head from "next/head";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
